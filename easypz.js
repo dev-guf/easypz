@@ -1,4 +1,6 @@
+"use strict";
 var _this = this;
+exports.__esModule = true;
 function sign(number) {
     if (number < 0)
         return -1;
@@ -1356,3 +1358,4 @@ easyPZLoader.checkElements();
 window.addEventListener('load', function () { easyPZLoader.checkElements(); });
 window.setInterval(function () { easyPZLoader.checkElements(); }, 500);
 //# sourceMappingURL=easypz.js.map
+exports.EasyPZ = EasyPZ;
